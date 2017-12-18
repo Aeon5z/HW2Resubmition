@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF2B16B71FCAC5EA00685586 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16B61FCAC5EA00685586 /* AppDelegate.m */; };
+		AF2B16BD1FCAC5EA00685586 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2B16BB1FCAC5EA00685586 /* Main.storyboard */; };
+		AF2B16BF1FCAC5EA00685586 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2B16BE1FCAC5EA00685586 /* Assets.xcassets */; };
+		AF2B16C21FCAC5EA00685586 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2B16C01FCAC5EA00685586 /* LaunchScreen.storyboard */; };
+		AF2B16C51FCAC5EA00685586 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16C41FCAC5EA00685586 /* main.m */; };
+		AF2B16CF1FCAC5EA00685586 /* usPresidentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16CE1FCAC5EA00685586 /* usPresidentTests.m */; };
+		AF2B16DA1FCAC5EA00685586 /* usPresidentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16D91FCAC5EA00685586 /* usPresidentUITests.m */; };
+		AF2B16E91FCAC7C000685586 /* PresidentTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16E81FCAC7C000685586 /* PresidentTableViewController.m */; };
+		AF2B16EC1FCAC7E300685586 /* PresidentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16EB1FCAC7E300685586 /* PresidentTableViewCell.m */; };
+		AF2B16EF1FCAC81000685586 /* presidentHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16EE1FCAC81000685586 /* presidentHelper.m */; };
+		AF2B16F41FCAD16700685586 /* presidentList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF2B16F31FCAD16700685586 /* presidentList.plist */; };
+		AF2B16F71FCB5B0A00685586 /* PresidentDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2B16F61FCB5B0A00685586 /* PresidentDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AF2B16CB1FCAC5EA00685586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2B16AA1FCAC5EA00685586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2B16B11FCAC5EA00685586;
+			remoteInfo = usPresident;
+		};
+		AF2B16D61FCAC5EA00685586 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF2B16AA1FCAC5EA00685586 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF2B16B11FCAC5EA00685586;
+			remoteInfo = usPresident;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF2B16B21FCAC5EA00685586 /* usPresident.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usPresident.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2B16B51FCAC5EA00685586 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AF2B16B61FCAC5EA00685586 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AF2B16BC1FCAC5EA00685586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF2B16BE1FCAC5EA00685586 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF2B16C11FCAC5EA00685586 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF2B16C31FCAC5EA00685586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2B16C41FCAC5EA00685586 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF2B16CA1FCAC5EA00685586 /* usPresidentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usPresidentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2B16CE1FCAC5EA00685586 /* usPresidentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = usPresidentTests.m; sourceTree = "<group>"; };
+		AF2B16D01FCAC5EA00685586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2B16D51FCAC5EA00685586 /* usPresidentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usPresidentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2B16D91FCAC5EA00685586 /* usPresidentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = usPresidentUITests.m; sourceTree = "<group>"; };
+		AF2B16DB1FCAC5EA00685586 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2B16E71FCAC7C000685586 /* PresidentTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresidentTableViewController.h; sourceTree = "<group>"; };
+		AF2B16E81FCAC7C000685586 /* PresidentTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentTableViewController.m; sourceTree = "<group>"; };
+		AF2B16EA1FCAC7E300685586 /* PresidentTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresidentTableViewCell.h; sourceTree = "<group>"; };
+		AF2B16EB1FCAC7E300685586 /* PresidentTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentTableViewCell.m; sourceTree = "<group>"; };
+		AF2B16ED1FCAC81000685586 /* presidentHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = presidentHelper.h; sourceTree = "<group>"; };
+		AF2B16EE1FCAC81000685586 /* presidentHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = presidentHelper.m; sourceTree = "<group>"; };
+		AF2B16F31FCAD16700685586 /* presidentList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = presidentList.plist; sourceTree = "<group>"; };
+		AF2B16F51FCB5B0A00685586 /* PresidentDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresidentDetailViewController.h; sourceTree = "<group>"; };
+		AF2B16F61FCB5B0A00685586 /* PresidentDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2B16AF1FCAC5EA00685586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2B16C71FCAC5EA00685586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2B16D21FCAC5EA00685586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2B16A91FCAC5EA00685586 = {
+			isa = PBXGroup;
+			children = (
+				AF2B16B41FCAC5EA00685586 /* usPresident */,
+				AF2B16CD1FCAC5EA00685586 /* usPresidentTests */,
+				AF2B16D81FCAC5EA00685586 /* usPresidentUITests */,
+				AF2B16B31FCAC5EA00685586 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2B16B31FCAC5EA00685586 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B16B21FCAC5EA00685586 /* usPresident.app */,
+				AF2B16CA1FCAC5EA00685586 /* usPresidentTests.xctest */,
+				AF2B16D51FCAC5EA00685586 /* usPresidentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2B16B41FCAC5EA00685586 /* usPresident */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B16B51FCAC5EA00685586 /* AppDelegate.h */,
+				AF2B16B61FCAC5EA00685586 /* AppDelegate.m */,
+				AF2B16EA1FCAC7E300685586 /* PresidentTableViewCell.h */,
+				AF2B16EB1FCAC7E300685586 /* PresidentTableViewCell.m */,
+				AF2B16ED1FCAC81000685586 /* presidentHelper.h */,
+				AF2B16EE1FCAC81000685586 /* presidentHelper.m */,
+				AF2B16F51FCB5B0A00685586 /* PresidentDetailViewController.h */,
+				AF2B16F61FCB5B0A00685586 /* PresidentDetailViewController.m */,
+				AF2B16E71FCAC7C000685586 /* PresidentTableViewController.h */,
+				AF2B16E81FCAC7C000685586 /* PresidentTableViewController.m */,
+				AF2B16BB1FCAC5EA00685586 /* Main.storyboard */,
+				AF2B16F31FCAD16700685586 /* presidentList.plist */,
+				AF2B16BE1FCAC5EA00685586 /* Assets.xcassets */,
+				AF2B16C01FCAC5EA00685586 /* LaunchScreen.storyboard */,
+				AF2B16C31FCAC5EA00685586 /* Info.plist */,
+				AF2B16C41FCAC5EA00685586 /* main.m */,
+			);
+			path = usPresident;
+			sourceTree = "<group>";
+		};
+		AF2B16CD1FCAC5EA00685586 /* usPresidentTests */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B16CE1FCAC5EA00685586 /* usPresidentTests.m */,
+				AF2B16D01FCAC5EA00685586 /* Info.plist */,
+			);
+			path = usPresidentTests;
+			sourceTree = "<group>";
+		};
+		AF2B16D81FCAC5EA00685586 /* usPresidentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AF2B16D91FCAC5EA00685586 /* usPresidentUITests.m */,
+				AF2B16DB1FCAC5EA00685586 /* Info.plist */,
+			);
+			path = usPresidentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2B16B11FCAC5EA00685586 /* usPresident */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2B16DE1FCAC5EA00685586 /* Build configuration list for PBXNativeTarget "usPresident" */;
+			buildPhases = (
+				AF2B16AE1FCAC5EA00685586 /* Sources */,
+				AF2B16AF1FCAC5EA00685586 /* Frameworks */,
+				AF2B16B01FCAC5EA00685586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = usPresident;
+			productName = usPresident;
+			productReference = AF2B16B21FCAC5EA00685586 /* usPresident.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF2B16C91FCAC5EA00685586 /* usPresidentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2B16E11FCAC5EA00685586 /* Build configuration list for PBXNativeTarget "usPresidentTests" */;
+			buildPhases = (
+				AF2B16C61FCAC5EA00685586 /* Sources */,
+				AF2B16C71FCAC5EA00685586 /* Frameworks */,
+				AF2B16C81FCAC5EA00685586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2B16CC1FCAC5EA00685586 /* PBXTargetDependency */,
+			);
+			name = usPresidentTests;
+			productName = usPresidentTests;
+			productReference = AF2B16CA1FCAC5EA00685586 /* usPresidentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AF2B16D41FCAC5EA00685586 /* usPresidentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2B16E41FCAC5EA00685586 /* Build configuration list for PBXNativeTarget "usPresidentUITests" */;
+			buildPhases = (
+				AF2B16D11FCAC5EA00685586 /* Sources */,
+				AF2B16D21FCAC5EA00685586 /* Frameworks */,
+				AF2B16D31FCAC5EA00685586 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF2B16D71FCAC5EA00685586 /* PBXTargetDependency */,
+			);
+			name = usPresidentUITests;
+			productName = usPresidentUITests;
+			productReference = AF2B16D51FCAC5EA00685586 /* usPresidentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2B16AA1FCAC5EA00685586 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Aeonz;
+				TargetAttributes = {
+					AF2B16B11FCAC5EA00685586 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					AF2B16C91FCAC5EA00685586 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF2B16B11FCAC5EA00685586;
+					};
+					AF2B16D41FCAC5EA00685586 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AF2B16B11FCAC5EA00685586;
+					};
+				};
+			};
+			buildConfigurationList = AF2B16AD1FCAC5EA00685586 /* Build configuration list for PBXProject "usPresident" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2B16A91FCAC5EA00685586;
+			productRefGroup = AF2B16B31FCAC5EA00685586 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2B16B11FCAC5EA00685586 /* usPresident */,
+				AF2B16C91FCAC5EA00685586 /* usPresidentTests */,
+				AF2B16D41FCAC5EA00685586 /* usPresidentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2B16B01FCAC5EA00685586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2B16C21FCAC5EA00685586 /* LaunchScreen.storyboard in Resources */,
+				AF2B16BF1FCAC5EA00685586 /* Assets.xcassets in Resources */,
+				AF2B16BD1FCAC5EA00685586 /* Main.storyboard in Resources */,
+				AF2B16F41FCAD16700685586 /* presidentList.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2B16C81FCAC5EA00685586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2B16D31FCAC5EA00685586 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2B16AE1FCAC5EA00685586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2B16EC1FCAC7E300685586 /* PresidentTableViewCell.m in Sources */,
+				AF2B16EF1FCAC81000685586 /* presidentHelper.m in Sources */,
+				AF2B16F71FCB5B0A00685586 /* PresidentDetailViewController.m in Sources */,
+				AF2B16C51FCAC5EA00685586 /* main.m in Sources */,
+				AF2B16B71FCAC5EA00685586 /* AppDelegate.m in Sources */,
+				AF2B16E91FCAC7C000685586 /* PresidentTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2B16C61FCAC5EA00685586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2B16CF1FCAC5EA00685586 /* usPresidentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2B16D11FCAC5EA00685586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2B16DA1FCAC5EA00685586 /* usPresidentUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF2B16CC1FCAC5EA00685586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2B16B11FCAC5EA00685586 /* usPresident */;
+			targetProxy = AF2B16CB1FCAC5EA00685586 /* PBXContainerItemProxy */;
+		};
+		AF2B16D71FCAC5EA00685586 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AF2B16B11FCAC5EA00685586 /* usPresident */;
+			targetProxy = AF2B16D61FCAC5EA00685586 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AF2B16BB1FCAC5EA00685586 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2B16BC1FCAC5EA00685586 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF2B16C01FCAC5EA00685586 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2B16C11FCAC5EA00685586 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF2B16DC1FCAC5EA00685586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AF2B16DD1FCAC5EA00685586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2B16DF1FCAC5EA00685586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = usPresident/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.usPresident;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF2B16E01FCAC5EA00685586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = usPresident/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.usPresident;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF2B16E21FCAC5EA00685586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = usPresidentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.usPresidentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/usPresident.app/usPresident";
+			};
+			name = Debug;
+		};
+		AF2B16E31FCAC5EA00685586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = usPresidentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.usPresidentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/usPresident.app/usPresident";
+			};
+			name = Release;
+		};
+		AF2B16E51FCAC5EA00685586 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = usPresidentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.usPresidentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = usPresident;
+			};
+			name = Debug;
+		};
+		AF2B16E61FCAC5EA00685586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = usPresidentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MDC.usPresidentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = usPresident;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2B16AD1FCAC5EA00685586 /* Build configuration list for PBXProject "usPresident" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2B16DC1FCAC5EA00685586 /* Debug */,
+				AF2B16DD1FCAC5EA00685586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2B16DE1FCAC5EA00685586 /* Build configuration list for PBXNativeTarget "usPresident" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2B16DF1FCAC5EA00685586 /* Debug */,
+				AF2B16E01FCAC5EA00685586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2B16E11FCAC5EA00685586 /* Build configuration list for PBXNativeTarget "usPresidentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2B16E21FCAC5EA00685586 /* Debug */,
+				AF2B16E31FCAC5EA00685586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2B16E41FCAC5EA00685586 /* Build configuration list for PBXNativeTarget "usPresidentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2B16E51FCAC5EA00685586 /* Debug */,
+				AF2B16E61FCAC5EA00685586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2B16AA1FCAC5EA00685586 /* Project object */;
+}
